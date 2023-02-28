@@ -6,4 +6,7 @@
  <project path="vendor/xiaomi/lavender" name="mitmac29/vendor_xiaomi_lavender.git" remote="github" revision="12.1" />
  <project path="kernel/xiaomi/lavender" name="mitmac29/kernel_xiaomi_lavender.git" remote="github" revision="qti-oldcam" />
  
+ <!-- Remote -->
+ <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-19.1" />
+
 </manifest>

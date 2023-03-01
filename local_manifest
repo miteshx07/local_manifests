@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+ 
+ <!-- Remote --!>
+ <remote name="LineageOS" fetch="https://gitlab.com/LineageOS" />
 
  <!-- Trees -->
  <project path="device/xiaomi/lavender" name="mitmac29/device_xiaomi_lavender.git" remote="github" revision="12.1" />
  <project path="vendor/xiaomi/lavender" name="mitmac29/vendor_xiaomi_lavender.git" remote="github" revision="12.1" />
  <project path="kernel/xiaomi/lavender" name="mitmac29/kernel_xiaomi_lavender.git" remote="github" revision="qti-oldcam" />
  
- <!-- Remote -->
+ <!-- devicesettings -->
  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-19.1" />
 
 </manifest>

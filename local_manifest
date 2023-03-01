@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
  
- <!-- Remote --!>
+ <!-- Remotes --!>
+ <remote name="mitmac29" fetch="https://github.com/mitmac29" />
  <remote name="LineageOS" fetch="https://github.com/LineageOS" />
 
  <!-- Trees -->

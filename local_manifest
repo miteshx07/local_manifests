@@ -2,7 +2,6 @@
 <manifest>
  
  <!-- Remotes --!>
- <remote name="mitmac29" fetch="https://github.com/mitmac29" />
  <remote name="LineageOS" fetch="https://github.com/LineageOS" />
 
  <!-- Trees -->

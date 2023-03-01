@@ -2,7 +2,7 @@
 <manifest>
  
  <!-- Remote --!>
- <remote name="LineageOS" fetch="https://gitlab.com/LineageOS" />
+ <remote name="LineageOS" fetch="https://github.com/LineageOS" />
 
  <!-- Trees -->
  <project path="device/xiaomi/lavender" name="mitmac29/device_xiaomi_lavender.git" remote="github" revision="12.1" />

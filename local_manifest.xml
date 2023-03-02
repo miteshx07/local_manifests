@@ -18,4 +18,6 @@
  <!-- Clang --> 
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" /> 
 
+ <remove-project name="android_hardware_lineage_compat" />
+ 
 </manifest>

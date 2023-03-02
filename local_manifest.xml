@@ -12,8 +12,8 @@
  <project path="vendor/xiaomi/lavender" name="mitmac29/vendor_xiaomi_lavender.git" remote="github" revision="12.1" clone-depth="1" />
  <project path="kernel/xiaomi/lavender" name="mitmac29/kernel_xiaomi_lavender.git" remote="github" revision="qti-oldcam" clone-depth="1" />
  
- <!-- devicesettings -->
- <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-19.1" clone-depth="1" />
+ <!-- Dolby -->
+ <project path="vendor/dolby" name="Team-NoobMaster69/vendor_dolby" remote="github" revision="dolby-1.0-d1" clone-depth="1" />
 
  <!-- Clang --> 
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" /> 

@@ -8,8 +8,8 @@
           fetch="https://github.com" /> 
 
  <!-- Trees -->
- <project path="device/xiaomi/lavender" name="mitmac29/device_xiaomi_lavender.git" remote="github" revision="12.1" clone-depth="1" />
- <project path="vendor/xiaomi/lavender" name="mitmac29/vendor_xiaomi_lavender.git" remote="github" revision="12.1" clone-depth="1" />
+ <project path="device/xiaomi/lavender" name="mitmac29/device_xiaomi_lavender1.git" remote="github" revision="11" clone-depth="1" />
+ <project path="vendor/xiaomi/lavender" name="mitmac29/vendor_xiaomi_lavender1.git" remote="github" revision="11" clone-depth="1" />
  <project path="kernel/xiaomi/lavender" name="mitmac29/kernel_xiaomi_lavender.git" remote="github" revision="qti-oldcam" clone-depth="1" />
  
  <!-- Dolby -->

@@ -6,6 +6,8 @@
 
  <remote name="github"
           fetch="https://github.com" /> 
+ 
+ <remove-project name="android_frameworks_base" />
 
  <!-- Trees -->
  <project path="device/xiaomi/lavender" name="mitmac29/device_xiaomi_lavender1.git" remote="github" revision="11" clone-depth="1" />
@@ -18,7 +20,5 @@
 
  <!-- Clang --> 
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" /> 
-
- <remove-project name="android_frameworks_base" />
 
 </manifest>

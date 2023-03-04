@@ -8,8 +8,8 @@
           fetch="https://github.com" /> 
  
  <remove-project name="CarbonROM/android_frameworks_base" />
- <remove-project name="CarbonROM/android_hardware_qcom_display" />
- <remove-project name="CarbonROM/android_hardware_qcom_media" />
+ <remove-project name="CarbonROM/android_hardware_qcom-caf_display" />
+ <remove-project name="CarbonROM/android_hardware_qcom-caf_media" />
 
  <!-- Trees -->
  <project path="device/xiaomi/lavender" name="mitmac29/device_xiaomi_lavender1.git" remote="github" revision="11" clone-depth="1" />
@@ -17,8 +17,8 @@
  <project path="kernel/xiaomi/lavender" name="mitmac29/kernel_xiaomi_lavender.git" remote="github" revision="qti-oldcam" clone-depth="1" />
 
  <project path="frameworks/base" name="mitmac29/android_frameworks_base-2.git" remote="github" revision="cr-9.0" clone-depth="1" />
- <project path="hardware/qcom/display/msm8998" name="ArrowOS/android_hardware_qcom_display.git" remote="github" revision="arrow-11.0-caf-msm8998" clone-depth="1" />
- <project path="hardware/qcom/media/msm8998" name="ArrowOS/android_hardware_qcom_media.git" remote="github" revision="arrow-11.0-caf-msm8998" clone-depth="1" />
+ <project path="hardware/qcom-caf/display/msm8998" name="ArrowOS/android_hardware_qcom_display.git" remote="github" revision="arrow-11.0-caf-msm8998" clone-depth="1" />
+ <project path="hardware/qcom-caf/media/msm8998" name="ArrowOS/android_hardware_qcom_media.git" remote="github" revision="arrow-11.0-caf-msm8998" clone-depth="1" />
  
  <!-- Dolby -->
  <project path="vendor/dolby" name="Team-NoobMaster69/vendor_dolby" remote="github" revision="dolby-1.0-d1" clone-depth="1" />

@@ -11,7 +11,9 @@
  <remove-project name="CarbonROM/android_hardware_qcom_display" />
  <remove-project name="CarbonROM/android_hardware_qcom_media" />
  <remove-project name="CarbonROM/android_hardware_qcom_audio" />
- <remove-project name="hardware/qcom-caf/msm8998" />
+ <remove-project name="LineageOS/android_hardware_qcom_media" />
+ <remove-project name="LineageOS/android_hardware_qcom_audio" />
+ <remove-project name="LineageOS/android_hardware_qcom_display" />
 
  <!-- Trees -->
  <project path="device/xiaomi/lavender" name="mitmac29/device_xiaomi_lavender1.git" remote="github" revision="11" clone-depth="1" />

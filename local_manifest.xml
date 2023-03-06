@@ -7,7 +7,7 @@
  <remote name="github"
           fetch="https://github.com" /> 
 
- <remote  name="gitlab"
+ <remote name="gitlab"
            fetch="https://gitlab.com/" />
  
  <remove-project name="syberia-project/platform_frameworks_base" />

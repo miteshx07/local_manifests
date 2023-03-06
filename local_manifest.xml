@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
- 
- <remote name="clang"
-          fetch="https://gitlab.com/sanjeevstunner" />
 
  <remote name="changes"
           fetch="https://github.com" /> 
 
- <remote name="gitlab"
+ <remote name="gitlab1"
            fetch="https://gitlab.com/" />
  
  <remove-project name="syberia-project/platform_frameworks_base" />
@@ -32,7 +29,7 @@
  <project path="vendor/dolby" name="Team-NoobMaster69/vendor_dolby" remote="changes" revision="dolby-1.0-d1" clone-depth="1" />
 
  <!-- Clang --> 
- <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" /> 
+ <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="sanjeevstunner/clang-r450784d" remote="gitlab1" revision="master" clone-depth="1" /> 
 
  <!-- Sepolicy -->
  <project path="device/qcom/sepolicy-legacy-um" name="P404-lavender/device_qcom_sepolicy-legacy-um" remote="changes" revision="shinka" clone-depth="1" />

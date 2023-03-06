@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+ <remote  name="aosp"
+           fetch="https://android.googlesource.com/"
+           review="https://android-review.googlesource.com/" />
+
  <remote name="changes"
            fetch="https://github.com" /> 
 
@@ -11,7 +15,7 @@
  <remove-project name="syberia-project/platform_hardware_qcom_display" />
  <remove-project name="syberia-project/platform_hardware_qcom_media" />
  <remove-project name="syberia-project/platform_hardware_qcom_audio" />
- <remove-project name="syberia-project/platform_system_libhidl" />
+ <remove-project name="platform/system/libhidl" />
 
  <!-- Trees -->
  <project path="device/xiaomi/lavender" name="mitmac29/lavender_DT.git" remote="changes" revision="13.0" clone-depth="1" />

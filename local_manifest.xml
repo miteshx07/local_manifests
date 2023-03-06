@@ -2,7 +2,7 @@
 <manifest>
 
  <remote name="changes"
-          fetch="https://github.com" /> 
+           fetch="https://github.com" /> 
 
  <remote name="gitlab1"
            fetch="https://gitlab.com/" />

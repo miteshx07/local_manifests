@@ -7,7 +7,7 @@
  <remote name="gitlab1"
            fetch="https://gitlab.com/" />
  
- <remove-project name="syberia-project/platform_frameworks_base" />
+ <remove-project name="platform/frameworks/base" />
  <remove-project name="syberia-project/platform_hardware_qcom_display" />
  <remove-project name="syberia-project/platform_hardware_qcom_media" />
  <remove-project name="syberia-project/platform_hardware_qcom_audio" />

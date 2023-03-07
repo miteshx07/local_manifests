@@ -12,9 +12,6 @@
  <project path="frameworks/base" name="mitmac29/platform_frameworks_base-3.git" remote="changes" revision="13.0" clone-depth="1" />
  
  <!-- HALs -->
- <remove-project name="platform_hardware_qcom_display" />
- <remove-project name="platform_hardware_qcom_media" />
- <remove-project name="plaform_hardware_qcom_audio" />
  <project path="hardware/qcom-caf/msm8998/display" name="ArrowOS/android_hardware_qcom_display.git" remote="changes" revision="arrow-13.0-caf-msm8998" clone-depth="1" />
  <project path="hardware/qcom-caf/msm8998/media" name="ArrowOS/android_hardware_qcom_media.git" remote="changes" revision="arrow-13.0-caf-msm8998" clone-depth="1" />
  <project path="hardware/qcom-caf/msm8998/audio" name="ArrowOS/android_hardware_qcom_audio.git" remote="changes" revision="arrow-13.0-caf-msm8998" clone-depth="1" />

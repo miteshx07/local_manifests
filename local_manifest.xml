@@ -7,23 +7,29 @@
  <remote name="gitlab1"
            fetch="https://gitlab.com/" />
  
+ <!-- F/b -->
  <remove-project name="platform_frameworks_base" />
- <remove-project name="platform/hardware/qcom/display" />
- <remove-project name="platform/hardware/qcom/media" />
- <remove-project name="plaform/hardware/qcom/audio" />
+ <project path="frameworks/base" name="mitmac29/platform_frameworks_base-3.git" remote="changes" revision="13.0" clone-depth="1" />
+ 
+ <!-- HALs -->
+ <remove-project name="platform_hardware_qcom_display" />
+ <remove-project name="platform_hardware_qcom_media" />
+ <remove-project name="plaform_hardware_qcom_audio" />
+ <project path="hardware/qcom-caf/msm8998/display" name="ArrowOS/android_hardware_qcom_display.git" remote="changes" revision="arrow-13.0-caf-msm8998" clone-depth="1" />
+ <project path="hardware/qcom-caf/msm8998/media" name="ArrowOS/android_hardware_qcom_media.git" remote="changes" revision="arrow-13.0-caf-msm8998" clone-depth="1" />
+ <project path="hardware/qcom-caf/msm8998/audio" name="ArrowOS/android_hardware_qcom_audio.git" remote="changes" revision="arrow-13.0-caf-msm8998" clone-depth="1" />
+ 
+ <!-- Libhidl -->
  <remove-project name="platform/system/libhidl" />
+ <project path="system/libhidl" name="mitmac29/android_system_libhidl.git" remote="changes" revision="cr-11.0" clone-depth="1" />
 
  <!-- Trees -->
  <project path="device/xiaomi/lavender" name="mitmac29/lavender_DT.git" remote="changes" revision="13.0" clone-depth="1" />
  <project path="vendor/xiaomi/lavender" name="mitmac29/vendor_xiaomi_lavender.git" remote="changes" revision="13.0" clone-depth="1" />
  <project path="kernel/xiaomi/lavender" name="mitmac29/kernel_xiaomi_lavender.git" remote="changes" revision="a13-qti-camfix" clone-depth="1" />
+ 
+ <!-- device settings -->
  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings.git" remote="changes" revision="lineage-20.0" clone-depth="1" />
- <project path="system/libhidl" name="mitmac29/android_system_libhidl.git" remote="changes" revision="cr-11.0" clone-depth="1" />
-
- <project path="frameworks/base" name="mitmac29/platform_frameworks_base-3.git" remote="changes" revision="13.0" clone-depth="1" />
- <project path="hardware/qcom-caf/msm8998/display" name="ArrowOS/android_hardware_qcom_display.git" remote="changes" revision="arrow-13.0-caf-msm8998" clone-depth="1" />
- <project path="hardware/qcom-caf/msm8998/media" name="ArrowOS/android_hardware_qcom_media.git" remote="changes" revision="arrow-13.0-caf-msm8998" clone-depth="1" />
- <project path="hardware/qcom-caf/msm8998/audio" name="ArrowOS/android_hardware_qcom_audio.git" remote="changes" revision="arrow-13.0-caf-msm8998" clone-depth="1" />
  
  <!-- Dolby -->
  <project path="vendor/dolby" name="Team-NoobMaster69/vendor_dolby" remote="changes" revision="dolby-1.0-d1" clone-depth="1" />

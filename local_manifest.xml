@@ -25,9 +25,6 @@
  <project path="vendor/xiaomi/lavender" name="mitmac29/vendor_xiaomi_lavender.git" remote="changes" revision="13.0" clone-depth="1" />
  <project path="kernel/xiaomi/lavender" name="mitmac29/kernel_xiaomi_lavender.git" remote="changes" revision="a13-qti-camfix" clone-depth="1" />
  
- <!-- device settings -->
- <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings.git" remote="changes" revision="lineage-20.0" clone-depth="1" />
- 
  <!-- Dolby -->
  <project path="vendor/dolby" name="Team-NoobMaster69/vendor_dolby" remote="changes" revision="dolby-1.0-d1" clone-depth="1" />
 

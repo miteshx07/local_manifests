@@ -32,6 +32,6 @@
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="sanjeevstunner/clang-r450784d" remote="gitlab1" revision="master" clone-depth="1" /> 
 
  <!-- Sepolicy -->
- <project path="device/qcom/sepolicy-legacy-um" name="P404-lavender/device_qcom_sepolicy-legacy-um" remote="changes" revision="shinka" clone-depth="1" />
+ <project path="device/qcom/sepolicy-legacy-um" name="VoltageOS/device_qcom_sepolicy-legacy-um.git" remote="changes" revision="13" clone-depth="1" />
 
 </manifest>

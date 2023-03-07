@@ -8,9 +8,9 @@
            fetch="https://gitlab.com/" />
  
  <remove-project name="platform_frameworks_base" />
- <remove-project name="syberia-project/platform_hardware_qcom_display" />
- <remove-project name="syberia-project/platform_hardware_qcom_media" />
- <remove-project name="syberia-project/platform_hardware_qcom_audio" />
+ <remove-project name="platform/hardware/qcom/display" />
+ <remove-project name="platform/hardware/qcom/media" />
+ <remove-project name="plaform/hardware/qcom/audio" />
  <remove-project name="platform/system/libhidl" />
 
  <!-- Trees -->
@@ -18,7 +18,7 @@
  <project path="vendor/xiaomi/lavender" name="mitmac29/vendor_xiaomi_lavender.git" remote="changes" revision="13.0" clone-depth="1" />
  <project path="kernel/xiaomi/lavender" name="mitmac29/kernel_xiaomi_lavender.git" remote="changes" revision="a13-qti-camfix" clone-depth="1" />
  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings.git" remote="changes" revision="lineage-20.0" clone-depth="1" />
- <project path="platform/system/libhidl" name="mitmac29/android_system_libhidl.git" remote="changes" revision="cr-11.0" clone-depth="1" />
+ <project path="system/libhidl" name="mitmac29/android_system_libhidl.git" remote="changes" revision="cr-11.0" clone-depth="1" />
 
  <project path="frameworks/base" name="mitmac29/platform_frameworks_base-3.git" remote="changes" revision="13.0" clone-depth="1" />
  <project path="hardware/qcom-caf/msm8998/display" name="ArrowOS/android_hardware_qcom_display.git" remote="changes" revision="arrow-13.0-caf-msm8998" clone-depth="1" />

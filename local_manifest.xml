@@ -32,6 +32,7 @@
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="sanjeevstunner/clang-r450784d" remote="gitlab1" revision="master" clone-depth="1" /> 
 
  <!-- Sepolicy -->
+ <remove-project name="device_qcom_sepolicy-legacy-um" />
  <project path="device/qcom/sepolicy-legacy-um" name="mitmac29/sepolicy-legacy-um.git" remote="changes" revision="shinka" clone-depth="1" />
 
 </manifest>

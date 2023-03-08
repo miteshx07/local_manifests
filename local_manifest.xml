@@ -21,18 +21,18 @@
  <project path="system/libhidl" name="mitmac29/android_system_libhidl.git" remote="changes" revision="cr-11.0" clone-depth="1" />
 
  <!-- Trees -->
- <project path="device/xiaomi/lavender" name="mitmac29/lavender_DT.git" remote="changes" revision="13.0" clone-depth="1" />
- <project path="vendor/xiaomi/lavender" name="mitmac29/vendor_xiaomi_lavender.git" remote="changes" revision="13.0" clone-depth="1" />
- <project path="kernel/xiaomi/lavender" name="mitmac29/kernel_xiaomi_lavender.git" remote="changes" revision="a13-qti-camfix" clone-depth="1" />
+ <project path="device/xiaomi/lavender" name="mitmac29/lavender_DT.git" remote="changes" revision="13.0" />
+ <project path="vendor/xiaomi/lavender" name="mitmac29/vendor_xiaomi_lavender.git" remote="changes" revision="13.0" />
+ <project path="kernel/xiaomi/lavender" name="mitmac29/kernel_xiaomi_lavender.git" remote="changes" revision="a13-qti-camfix" />
  
  <!-- Dolby -->
- <project path="vendor/dolby" name="Team-NoobMaster69/vendor_dolby" remote="changes" revision="dolby-1.0-d1" clone-depth="1" />
+ <project path="vendor/dolby" name="Team-NoobMaster69/vendor_dolby" remote="changes" revision="dolby-1.0-d1" />
 
  <!-- Clang --> 
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="sanjeevstunner/clang-r450784d" remote="gitlab1" revision="master" clone-depth="1" /> 
 
  <!-- Sepolicy -->
  <remove-project name="device_qcom_sepolicy-legacy-um" />
- <project path="device/qcom/sepolicy-legacy-um" name="mitmac29/sepolicy-legacy-um.git" remote="changes" revision="shinka" clone-depth="1" />
+ <project path="device/qcom/sepolicy-legacy-um" name="ProjectBlaze/device_qcom_sepolicy-legacy-um" remote="changes" revision="13" />
 
 </manifest>

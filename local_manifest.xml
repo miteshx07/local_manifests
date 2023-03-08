@@ -18,7 +18,7 @@
  
  <!-- Libhidl -->
  <remove-project name="platform/system/libhidl" />
- <project path="system/libhidl" name="mitmac29/android_system_libhidl.git" remote="changes" revision="cr-11.0" clone-depth="1" />
+ <project path="system/libhidl" name="mitmac29/android_system_libhidl.git" remote="changes" revision="cr-11.0" />
 
  <!-- Trees -->
  <project path="device/xiaomi/lavender" name="mitmac29/lavender_DT.git" remote="changes" revision="13.0" />
@@ -32,7 +32,6 @@
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="sanjeevstunner/clang-r450784d" remote="gitlab1" revision="master" clone-depth="1" /> 
 
  <!-- Sepolicy -->
- <remove-project name="device_qcom_sepolicy-legacy-um" />
  <project path="device/qcom/sepolicy-legacy-um" name="ProjectBlaze/device_qcom_sepolicy-legacy-um" remote="changes" revision="13" />
 
 </manifest>

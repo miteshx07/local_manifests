@@ -8,9 +8,9 @@
           fetch="https://github.com" /> 
 
  <!-- Trees -->
- <project path="device/xiaomi/lavender" name="mitmac29/device_xiaomi_lavender1.git" remote="github1" revision="11" clone-depth="1" />
- <project path="vendor/xiaomi/lavender" name="mitmac29/vendor_xiaomi_lavender1.git" remote="github1" revision="11" clone-depth="1" />
- <project path="kernel/xiaomi/lavender" name="mitmac29/kernel_xiaomi_lavender.git" remote="github1" revision="qti-oldcam" clone-depth="1" />
+ <project path="device/xiaomi/lavender" name="mitmac29/lavender_DT.git" remote="github1" revision="13.0" clone-depth="1" />
+ <project path="vendor/xiaomi/lavender" name="mitmac29/vendor_xiaomi_lavender.git" remote="github1" revision="13.0" clone-depth="1" />
+ <project path="kernel/xiaomi/lavender" name="mitmac29/kernel_xiaomi_lavender.git" remote="github1" revision="a13-qti-camfix" clone-depth="1" />
 
  <project path="hardware/qcom-caf/msm8998/display" name="ArrowOS/android_hardware_qcom_display.git" remote="github1" revision="arrow-11.0-caf-msm8998" clone-depth="1" />
  <project path="hardware/qcom-caf/msm8998/media" name="ArrowOS/android_hardware_qcom_media.git" remote="github1" revision="arrow-11.0-caf-msm8998" clone-depth="1" />

@@ -13,6 +13,8 @@
  <project path="kernel/xiaomi/lavender" name="mitmac29/kernel_xiaomi_lavender.git" remote="github1" revision="a13-qti-camfix" clone-depth="1" />
 
  <remove-project name="platform/packages/apps/WallpaperPicker2" />
+ <remove-project name="android_vendor_qcom_opensource_dataservices" />
+ <project path="vendor/qcom/opensource/dataservices" name="mitmac29/android_vendor_qcom_opensource_dataservices" remote="github1" revision="arrow-13.0" clone-depth="1" />
  <project path="platform/packages/apps/WallpaperPicker2" name="mitmac29/Wall.git" remote="github1" revision="master" clone-depth="1" />
 
  <project path="hardware/qcom-caf/msm8998/display" name="ArrowOS/android_hardware_qcom_display.git" remote="github1" revision="arrow-11.0-caf-msm8998" clone-depth="1" />

@@ -7,7 +7,6 @@
  <remote name="mitmac"
           fetch="https://github.com/mitmac29" />
  
-
  <!-- Trees -->
  <project path="device/xiaomi/lavender" name="lavender_DT.git" remote="mitmac" revision="12.1" clone-depth="1" />
  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender.git" remote="mitmac" revision="12.1" clone-depth="1" />

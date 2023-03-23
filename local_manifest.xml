@@ -4,20 +4,21 @@
  <remote name="clang"
           fetch="https://gitlab.com/sanjeevstunner" />
 
- <remote name="github1"
-          fetch="https://github.com" /> 
+ <remote name="mitmac"
+          fetch="https://github.com/mitmac29" />
+ 
 
  <!-- Trees -->
- <project path="device/xiaomi/lavender" name="mitmac29/lavender_DT.git" remote="github1" revision="12.1" clone-depth="1" />
- <project path="vendor/xiaomi/lavender" name="mitmac29/vendor_xiaomi_lavender.git" remote="github1" revision="12.1" clone-depth="1" />
- <project path="kernel/xiaomi/lavender" name="mitmac29/kernel_xiaomi_lavender.git" remote="github1" revision="qti-oldcam" clone-depth="1" />
+ <project path="device/xiaomi/lavender" name="lavender_DT.git" remote="mitmac" revision="12.1" clone-depth="1" />
+ <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender.git" remote="mitmac" revision="12.1" clone-depth="1" />
+ <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender.git" remote="mitmac" revision="qti-oldcam" clone-depth="1" />
 
  <!-- F/b -->
  <remove-project name="AICP/frameworks_base" />
- <project path="frameworks/base" name="mitmac29/frameworks_base.git" remote="github1" revision="s12.1" clone-depth="1" />
+ <project path="frameworks/base" name="mitmac29/frameworks_base.git" remote="mitmac" revision="s12.1" clone-depth="1" />
 
  <!-- Dolby -->
- <project path="vendor/dolby" name="Team-NoobMaster69/vendor_dolby" remote="github1" revision="dolby-1.0-d1" clone-depth="1" />
+ <project path="vendor/dolby" name="vendor_dolby" remote="mitmac" revision="dolby-1.0-d1" clone-depth="1" />
 
  <!-- Clang --> 
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" /> 

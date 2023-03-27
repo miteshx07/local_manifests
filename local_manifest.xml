@@ -12,11 +12,9 @@
  <project path="vendor/xiaomi/lavender" name="mitmac29/vendor_xiaomi_lavender.git" remote="mit" revision="13.0" clone-depth="1" />
  <project path="kernel/xiaomi/lavender" name="mitmac29/kernel_xiaomi_lavender.git" remote="mit" revision="a13-qti-camfix" clone-depth="1" />
 
- <remove-project name="platform/packages/apps/WallpaperPicker2" />
  <remove-project name="LineageOS/android_vendor_qcom_opensource_dataservices" />
  <project path="vendor/qcom/opensource/dataservices" name="mitmac29/android_vendor_qcom_opensource_dataservices-1" remote="mit" revision="lineage-20.0" clone-depth="1" />
- <project path="packages/apps/WallpaperPicker2" name="platform/packages/apps/WallpaperPicker2" remote="mit" revision="android13-qpr2-release" clone-depth="1" />
- 
+
  <!-- HAL -->
  <remove-project name="LineageOS/android_hardware_qcom_audio" />
  <remove-project name="LineageOS/android_hardware_qcom_display" />

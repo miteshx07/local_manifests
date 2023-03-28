@@ -12,7 +12,7 @@
  <remove-project name="LineageOS/android_vendor_qcom_opensource_dataservices" />
  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="mit" revision="lineage-20.0" clone-depth="1" />
 
-<!-- HAL -->
+ <!-- HAL -->
  <remove-project name="LineageOS/android_hardware_qcom_audio" />
  <remove-project name="LineageOS/android_hardware_qcom_display" />
  <remove-project name="LineageOS/android_hardware_qcom_media" />

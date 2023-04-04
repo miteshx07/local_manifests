@@ -12,6 +12,9 @@
  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender.git" remote="mit" revision="12.1" clone-depth="1" />
  <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender.git" remote="mit" revision="qti-oldcam" clone-depth="1" />
 
+ <!-- Dolby -->
+ <project path="vendor/dolby" name="vendor_dolby" remote="mit" revision="dolby-1.0-d1" clone-depth="1" />
+ 
  <!-- Clang --> 
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" /> 
 

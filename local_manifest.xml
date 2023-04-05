@@ -14,23 +14,23 @@
 
  <!-- fb -->
  <remove-project name="android_frameworks_base" />
- <project path="frameworks/base" name="mitmac29/android_frameworks_base-3" remote="github1" revision="thirteen" clone-depth="1" />
+ <project path="frameworks/base" name="android_frameworks_base-3" remote="github1" revision="thirteen" clone-depth="1" />
 
  <!-- ds -->
  <remove-project name="android_vendor_qcom_opensource_dataservices" />
- <project path="vendor/qcom/opensource/dataservices" name="mitmac29/android_vendor_qcom_opensource_dataservices-1" remote="github1" revision="arrow-13.0" clone-depth="1" />
+ <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices-1" remote="github1" revision="arrow-13.0" clone-depth="1" />
  
  <!-- wp -->
  <remove-project name="platform/packages/apps/WallpaperPicker2" />
- <project path="platform/packages/apps/WallpaperPicker2" name="mitmac29/wallpaper.git" remote="github1" revision="master" clone-depth="1" />
+ <project path="platform/packages/apps/WallpaperPicker2" name="wallpaper.git" remote="github1" revision="master" clone-depth="1" />
  
  <!-- HAL -->
- <project path="hardware/qcom-caf/msm8998/display" name="ArrowOS/android_hardware_qcom_display.git" remote="github1" revision="arrow-13.0-caf-msm8998" clone-depth="1" />
- <project path="hardware/qcom-caf/msm8998/media" name="ArrowOS/android_hardware_qcom_media.git" remote="github1" revision="arrow-13.0-caf-msm8998" clone-depth="1" />
- <project path="hardware/qcom-caf/msm8998/audio" name="ArrowOS/android_hardware_qcom_audio.git" remote="github1" revision="arrow-13.0-caf-msm8998" clone-depth="1" />
+ <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display.git" remote="github1" revision="arrow-13.0-caf-msm8998" clone-depth="1" />
+ <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media.git" remote="github1" revision="arrow-13.0-caf-msm8998" clone-depth="1" />
+ <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio.git" remote="github1" revision="arrow-13.0-caf-msm8998" clone-depth="1" />
  
  <!-- ds -->
- <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github1" revision="lineage-20.0" clone-depth="1" />
+ <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="github1" revision="lineage-20.0" clone-depth="1" />
 
  <!-- Clang --> 
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" /> 

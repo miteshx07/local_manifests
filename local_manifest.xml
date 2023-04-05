@@ -16,7 +16,7 @@
  <remove-project name="android_frameworks_base" />
  <remove-project name="android_vendor_qcom_opensource_dataservices" />
  
- <project path="vendor/qcom/opensource/dataservices" name="mitmac29/android_vendor_qcom_opensource_dataservices" remote="github1" revision="arrow-13.0" clone-depth="1" />
+ <project path="vendor/qcom/opensource/dataservices" name="mitmac29/android_vendor_qcom_opensource_dataservices-1" remote="github1" revision="arrow-13.0" clone-depth="1" />
  <remove-project name="platform/packages/apps/WallpaperPicker2" />
  <project path="platform/packages/apps/WallpaperPicker2" name="mitmac29/wallpaper.git" remote="github1" revision="master" clone-depth="1" />
  <project path="frameworks/base" name="mitmac29/android_frameworks_base-3" remote="github1" revision="thirteen" clone-depth="1" />

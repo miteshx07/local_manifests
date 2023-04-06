@@ -16,6 +16,10 @@
  <remove-project name="android_frameworks_base" />
  <project path="frameworks/base" name="android_frameworks_base-3" remote="github1" revision="thirteen" clone-depth="1" />
 
+ <!-- header -->
+ <remove-project name="platform/hardware/google/pixel" />
+ <project path="hardware/google/pixel" name="pixelcipher" remote="github1" revision="master" clone-depth="1" />
+
  <!-- ds -->
  <remove-project name="android_vendor_qcom_opensource_dataservices" />
  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices-1" remote="github1" revision="arrow-13.0" clone-depth="1" />

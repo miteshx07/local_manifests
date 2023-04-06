@@ -18,4 +18,7 @@
  <!-- Clang --> 
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" /> 
 
+ <remove-project name="android_vendor_qcom_opensource_dataservices" />
+ <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices-2" remote="mit" revision="sunflowerleaf" clone-depth="1" />
+
 </manifest>

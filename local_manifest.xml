@@ -9,7 +9,7 @@
  
  <!-- Trees -->
  <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender.git" remote="github1" revision="cherish13" clone-depth="1" />
- <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender1.git" remote="github1" revision="13.0" clone-depth="1" />
+ <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender.git" remote="github1" revision="13.0" clone-depth="1" />
  <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender.git" remote="github1" revision="a13-qti-camfix" clone-depth="1" />
 
  <!-- hal -->

@@ -23,4 +23,7 @@
  <!-- Clang --> 
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" /> 
 
+ <!-- Dolby -->
+ <project path="vendor/dolby" name="vendor_dolby" remote="github1" revision="dolby-1.0-d1" clone-depth="1" />
+
 </manifest>

@@ -27,4 +27,7 @@
  <remove-project name="vendor_qcom_opensource_dataservices" />
  <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="github1" revision="thirteen" clone-depth="1" />
  
+ <remove-project name="vendor_yaap" />
+ <project path="vendor/yaap" name="vendor_yaap" remote="github1" revision="thirteen" clone-depth="1" />
+
 </manifest>

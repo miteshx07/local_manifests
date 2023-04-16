@@ -10,7 +10,7 @@
  <!-- Trees -->
  <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender.git" remote="github1" revision="yaap13" clone-depth="1" />
  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender13.git" remote="github1" revision="13.0" clone-depth="1" />
- <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender.git" remote="github1" revision="a13-qti-camfix" clone-depth="1" />
+ <project path="kernel/xiaomi/lavender" name="crdroidandroid/android_kernel_xiaomi_lavender.git" remote="github" revision="13.0" clone-depth="1" />
 
  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display.git" remote="github1" revision="arrow-13.1-caf-msm8998" clone-depth="1" />
  <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media.git" remote="github1" revision="arrow-13.1-caf-msm8998" clone-depth="1" />

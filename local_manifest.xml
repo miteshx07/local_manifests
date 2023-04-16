@@ -31,6 +31,6 @@
  <project path="vendor/yaap" name="vendor_yaap" remote="github1" revision="thirteen" clone-depth="1" />
 
  <remove-project name="platform/hardware/google/pixel" />
- <project path="hardware/google/pixel" name="hardware_google_pixel" remote="github1" revision="master" clone-depth="1" />
+ <project path="hardware/google/pixel" name="android_hardware_google_pixel" remote="github1" revision="triton" clone-depth="1" />
 
 </manifest>

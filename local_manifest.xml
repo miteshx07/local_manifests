@@ -2,7 +2,7 @@
 <manifest>
  
  <remote name="clang"
-          fetch="https://gitlab.com/sanjeevstunner" />
+          fetch="https://gitlab.com" />
 
  <remote name="github1"
           fetch="https://github.com/mitmac29" /> 
@@ -17,7 +17,8 @@
  <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio.git" remote="github1" revision="arrow-13.1-caf-msm8998" clone-depth="1" />
 
  <!-- Clang --> 
- <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" /> 
+ <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="sanjeevstunner/clang-r450784d" remote="clang" revision="master" clone-depth="1" /> 
+ <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="<project path="prebuilts/clang/host/linux-x86/clang-nexus" name="Project-Nexus/nexus-clang" remote="clang" revision="nexus-15" clone-depth="1" />
 
  <!-- v4a -->
  <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="github1" revision="main" clone-depth="1" />

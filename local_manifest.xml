@@ -23,7 +23,7 @@
  <!-- v4a -->
  <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="github1" revision="main" clone-depth="1" />
 
- <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="github1" revision="arrow-13.1" clone-depth="1" />
+ <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um-1" remote="github1" revision="shinka" clone-depth="1" />
 
  <remove-project name="vendor_qcom_opensource_dataservices" />
  <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="github1" revision="thirteen" clone-depth="1" />

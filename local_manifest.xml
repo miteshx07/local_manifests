@@ -10,9 +10,9 @@
  <!-- Trees -->
  <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender.git" remote="github1" revision="yaap13" clone-depth="1" />
  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender13.git" remote="github1" revision="13.0" clone-depth="1" />
- <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender.git" remote="github1" revision="a13-qti-camfix" clone-depth="1" />
+ <project path="kernel/xiaomi/lavender" name="crdroidandroid/android_kernel_xiaomi_lavender.git" remote="github" revision="13.0" clone-depth="1" />
 
- <project path="prebuilts/clang/host/linux-x86/clang-nexus" name="Project-Nexus/nexus-clang" remote="clang" revision="nexus-15" clone-depth="1" />
+ <project path="prebuilts/clang/host/linux-x86/clang-nexus14" name="Project-Nexus/nexus-clang" remote="clang" revision="nexus-14" clone-depth="1" />
 
  <!-- v4a -->
  <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="github1" revision="main" clone-depth="1" />

@@ -7,6 +7,9 @@
  <remote name="clang"
           fetch="https://gitlab.com/ImSurajxD" />
 
+ <remove-project name="platform/hardware/google/pixel" />
+ <project path="hardware/google/pixel" name="android_hardware_google_pixel" remote="mit" revision="triton" clone-depth="1" />
+
  <!-- Trees -->
  <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender.git" remote="mit" revision="pixel" clone-depth="1" />
  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender13.git" remote="mit" revision="13.0" clone-depth="1" />

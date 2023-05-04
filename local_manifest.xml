@@ -20,6 +20,8 @@
  <remove-project name="vendor_qcom_opensource_dataservices" />
  <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="github1" revision="thirteen" clone-depth="1" />
  
+ <project path="prebuilts/clang/host/linux-x86/clang-nexus14" name="Project-Nexus/nexus-clang" remote="clang" revision="nexus-14" clone-depth="1" />
+ 
  <remove-project name="platform/hardware/google/pixel" />
  <project path="hardware/google/pixel" name="android_hardware_google_pixel" remote="github1" revision="triton" clone-depth="1" />
 

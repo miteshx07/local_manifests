@@ -16,6 +16,10 @@
  <remove-project name="AICP/vendor_aicp" />
  <project path="vendor/aicp" name="vendor_aicp" remote="mitmac" revision="s12.1" clone-depth="1" />
 
+ <!-- F/b -->
+ <remove-project name="AICP/frameworks_base" />
+ <project path="frameworks/base" name="frameworks_base" remote="mitmac" revision="s12.1" clone-depth="1" />
+
  <!-- Dolby -->
  <project path="vendor/dolby" name="vendor_dolby" remote="mitmac" revision="dolby-1.0-d1" clone-depth="1" />
 

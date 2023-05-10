@@ -15,6 +15,9 @@
  <!-- Dolby -->
  <project path="vendor/dolby" name="vendor_dolby" remote="mitmac" revision="dolby-1.0-d1" clone-depth="1" />
 
+ <!-- v4a --> 
+ <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="mit" revision="main" clone-depth="1" />
+
  <!-- Clang --> 
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="sanjeevstunner/clang-r450784d" remote="clang" revision="master" clone-depth="1" /> 
 

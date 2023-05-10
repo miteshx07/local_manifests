@@ -12,6 +12,10 @@
  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender.git" remote="mitmac" revision="12.1" clone-depth="1" />
  <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender.git" remote="mitmac" revision="qti-oldcam" clone-depth="1" />
 
+ <!-- vendor -->
+ <remove-project name="AICP/vendor_aicp" />
+ <project path="vendor/aicp" name="vendor_aicp" remote="mitmac" revision="s12.1" clone-depth="1" />
+
  <!-- Dolby -->
  <project path="vendor/dolby" name="vendor_dolby" remote="mitmac" revision="dolby-1.0-d1" clone-depth="1" />
 

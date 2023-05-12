@@ -22,6 +22,6 @@
  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="mit" revision="lineage-18.1" clone-depth="1" />
 
  <remove-project name="LineageOS/android_hardware_google_pixel" />
- <project path="hardware/google/pixel" name="android_hardware_google_pixle-1" remote="mit" revision="lineage-18.1" clone-depth="1" />
+ <project path="hardware/google/pixel" name="android_hardware_google_pixel-1" remote="mit" revision="lineage-18.1" clone-depth="1" />
  
 </manifest>

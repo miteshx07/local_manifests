@@ -10,7 +10,7 @@
  <!-- Trees -->
  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender1.git" remote="mit" revision="11" clone-depth="1" />
  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender1.git" remote="mit" revision="11" clone-depth="1" />
- <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender.git" remote="mit" revision="qti-oldcam" clone-depth="1" />
+ <project path="kernel/xiaomi/lavender" name="nexus_kernel_xiaomi_lavender.git" remote="mit" revision="qti-old" clone-depth="1" />
 
  <!-- Clang --> 
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" /> 

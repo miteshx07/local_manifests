@@ -12,7 +12,7 @@
  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender13.git" remote="github1" revision="13.0" clone-depth="1" />
  <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender.git" remote="github1" revision="a13-qti-camfix" clone-depth="1" />
 
-  <!-- hal -->
+ <!-- hal -->
 
  <remove-project name="LineageOS/android_hardware_qcom_media" />
 

@@ -10,7 +10,7 @@
  <!-- Trees -->
  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender1.git" remote="mit" revision="11" clone-depth="1" />
  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender1.git" remote="mit" revision="11" clone-depth="1" />
- <project path="kernel/xiaomi/lavender" name="nexus_kernel_xiaomi_lavender.git" remote="mit" revision="qti-old" clone-depth="1" />
+ <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender.git" remote="mit" revision="qti-old" clone-depth="1" />
 
  <!-- Clang --> 
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" /> 
@@ -18,10 +18,4 @@
  <!-- v4a -->
  <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="mit" revision="main" clone-depth="1" />
 
- <remove-project name="LineageOS/android_vendor_qcom_opensource_dataservices" />
- <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="mit" revision="lineage-18.1" clone-depth="1" />
-
- <remove-project name="LineageOS/android_hardware_google_pixel" />
- <project path="hardware/google/pixel" name="android_hardware_google_pixel-1" remote="mit" revision="lineage-18.1" clone-depth="1" />
- 
 </manifest>

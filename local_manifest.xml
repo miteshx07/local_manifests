@@ -17,9 +17,9 @@
  <remove-project name="AICP/hardware_qcom_media" />
  <remove-project name="AICP/hardware_qcom_display" />
 
- <project path="hardware/qcom-caf/sdm660/media" name="hardware_qcom-caf_sdm660_media.git" remote="mit" revision="lineage-21.0" />
- <project path="hardware/qcom-caf/sdm660/display" name="hardware_qcom-caf_sdm660_display.git" remote="mit" revision="lineage-21.0" />
- <project path="hardware/qcom-caf/sdm660/audio" name="hardware_qcom-caf_sdm660_audio.git" remote="mit" revision="lineage-21.0" />
+ <project path="hardware/qcom-caf/sdm660/media" name="hardware_qcom-caf_sdm660_media.git" remote="mit" revision="lineage-21.0" clone-depth="1" />
+ <project path="hardware/qcom-caf/sdm660/display" name="hardware_qcom-caf_sdm660_display.git" remote="mit" revision="lineage-21.0" clone-depth="1" />
+ <project path="hardware/qcom-caf/sdm660/audio" name="hardware_qcom-caf_sdm660_audio.git" remote="mit" revision="lineage-21.0" clone-depth="1" />
 
  <!-- v4a -->
  <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="mit" revision="main" clone-depth="1" />

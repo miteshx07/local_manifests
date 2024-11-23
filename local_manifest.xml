@@ -2,10 +2,7 @@
 <manifest>
 
  <remote name="mit"
-          fetch="https://github.com/mitmac29" /> 
-
- <remote name="clang"
-          fetch="https://gitlab.com/ImSurajxD" />
+          fetch="https://github.com/mitmac29" />
 
  <!-- Trees -->
  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender.git" remote="mit" revision="aicpA14" clone-depth="1" />
@@ -25,7 +22,4 @@
 
  <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator.git" remote="mit" revision="lineage-21.0" clone-depth="1" />
  
- <!-- v4a -->
- <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="mit" revision="main" clone-depth="1" />
-
 </manifest>

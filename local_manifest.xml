@@ -17,9 +17,9 @@
  <remove-project name="platform/hardware/qcom/display" />
  <remove-project name="platform/hardware/qcom/display" />
  
- <project path="hardware/qcom/media/sdm660" name="android_hardware_qcom-caf_sdm660_media.git" remote="mit" revision="XOS-15.0" clone-depth="1" />
- <project path="hardware/qcom/display/sdm660" name="android_hardware_qcom-caf_sdm660_display.git" remote="mit" revision="XOS-15.0" clone-depth="1" />
- <project path="hardware/qcom/audio/sdm660" name="android_hardware_qcom-caf_sdm660_audio.git" remote="mit" revision="XOS-15.0" clone-depth="1" />
+ <project path="hardware/qcom-caf/sdm660/media" name="android_hardware_qcom-caf_sdm660_media.git" remote="mit" revision="XOS-15.0" clone-depth="1" />
+ <project path="hardware/qcom-caf/sdm660/display" name="android_hardware_qcom-caf_sdm660_display.git" remote="mit" revision="XOS-15.0" clone-depth="1" />
+ <project path="hardware/qcom-caf/sdm660/audio" name="android_hardware_qcom-caf_sdm660_audio.git" remote="mit" revision="XOS-15.0" clone-depth="1" />
  
  
 </manifest>

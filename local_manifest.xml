@@ -8,6 +8,6 @@
  <!-- Trees -->
  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender14.git" remote="mit" revision="sakura" clone-depth="1" />
  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender14.git" remote="mit" revision="lineage-21.0" clone-depth="1" />
- <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomisonix.git" remote="mit" revision="Retro-14" clone-depth="1" />
+ <project path="kernel/xiaomi/lavender" name="android_kernel_lavendersonix.git" remote="mit" revision="Retro-14" clone-depth="1" />
  
 </manifest>

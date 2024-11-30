@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-        <remote  name="gt"
+        <remote name="github"
                 fetch="https://github.com" />
 
  <!-- Trees -->
- <project path="device/xiaomi/lavender" name="miteshx07/device_xiaomi_lavender14" remote="gt" revision="sakura" />
- <project path="vendor/xiaomi/lavender" name="miteshx07/vendor_xiaomi_lavender14" remote="gt" revision="lineage-21.0" />
- <project path="kernel/xiaomi/lavender" name="miteshx07/android_kernel_lavendersonix" remote="gt" revision="Retro-14" />
+ <project path="device/xiaomi/lavender" name="miteshx07/device_xiaomi_lavender14" remote="github" revision="sakura" />
+ <project path="vendor/xiaomi/lavender" name="miteshx07/vendor_xiaomi_lavender14" remote="github" revision="lineage-21.0" />
+ <project path="kernel/xiaomi/lavender" name="miteshx07/android_kernel_lavendersonix" remote="github" revision="Retro-14" />
 
- <project path="vendor/motorola-dolby" name="miteshx07/vendor_motorola-dolby" remote="gt" revision="v1.3" />
- <project path="hardware/xiaomi" name="miteshx07/android_hardware_xiaomi" remote="gt" revision="lineage-21" />
+ <project path="vendor/motorola-dolby" name="miteshx07/vendor_motorola-dolby" remote="github" revision="v1.3" />
+ <project path="hardware/xiaomi" name="miteshx07/android_hardware_xiaomi" remote="github" revision="lineage-21" />
 
- <project path="hardware/qcom-caf/sdm660/media" name="miteshx07/hardware_qcom-caf_sdm660_media" remote="gt" revision="lineage-21.0" />
- <project path="hardware/qcom-caf/sdm660/display" name="miteshx07/hardware_qcom-caf_sdm660_display" remote="gt" revision="lineage-21.0" />
- <project path="hardware/qcom-caf/sdm660/audio" name="miteshx07/hardware_qcom-caf_sdm660_audio" remote="gt" revision="lineage-21.0" />
+ <project path="hardware/qcom-caf/sdm660/media" name="miteshx07/hardware_qcom-caf_sdm660_media" remote="github" revision="lineage-21.0" />
+ <project path="hardware/qcom-caf/sdm660/display" name="miteshx07/hardware_qcom-caf_sdm660_display" remote="github" revision="lineage-21.0" />
+ <project path="hardware/qcom-caf/sdm660/audio" name="miteshx07/hardware_qcom-caf_sdm660_audio" remote="github" revision="lineage-21.0" />
  
 </manifest>

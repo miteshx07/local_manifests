@@ -2,18 +2,18 @@
 <manifest>
 
         <remote  name="gt"
-                fetch="https://github.com/miteshx07" />
+                fetch="https://github.com" />
 
  <!-- Trees -->
- <project path="device/xiaomi/lavender" name="device_xiaomi_lavender14" remote="gt" revision="sakura" clone-depth="1" />
- <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender14" remote="gt" revision="lineage-21.0" clone-depth="1" />
- <project path="kernel/xiaomi/lavender" name="android_kernel_lavendersonix" remote="gt" revision="Retro-14" />
+ <project path="device/xiaomi/lavender" name="miteshx07/device_xiaomi_lavender14" remote="gt" revision="sakura" />
+ <project path="vendor/xiaomi/lavender" name="miteshx07/vendor_xiaomi_lavender14" remote="gt" revision="lineage-21.0" />
+ <project path="kernel/xiaomi/lavender" name="miteshx07/android_kernel_lavendersonix" remote="gt" revision="Retro-14" />
 
- <project path="vendor/motorola-dolby" name="vendor_motorola-dolby" remote="gt" revision="v1.3" />
- <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="gt" revision="lineage-21" />
+ <project path="vendor/motorola-dolby" name="miteshx07/vendor_motorola-dolby" remote="gt" revision="v1.3" />
+ <project path="hardware/xiaomi" name="miteshx07/android_hardware_xiaomi" remote="gt" revision="lineage-21" />
 
- <project path="hardware/qcom-caf/sdm660/media" name="hardware_qcom-caf_sdm660_media" remote="gt" revision="lineage-21.0" />
- <project path="hardware/qcom-caf/sdm660/display" name="hardware_qcom-caf_sdm660_display" remote="gt" revision="lineage-21.0" />
- <project path="hardware/qcom-caf/sdm660/audio" name="hardware_qcom-caf_sdm660_audio" remote="gt" revision="lineage-21.0" />
+ <project path="hardware/qcom-caf/sdm660/media" name="miteshx07/hardware_qcom-caf_sdm660_media" remote="gt" revision="lineage-21.0" />
+ <project path="hardware/qcom-caf/sdm660/display" name="miteshx07/hardware_qcom-caf_sdm660_display" remote="gt" revision="lineage-21.0" />
+ <project path="hardware/qcom-caf/sdm660/audio" name="miteshx07/hardware_qcom-caf_sdm660_audio" remote="gt" revision="lineage-21.0" />
  
 </manifest>

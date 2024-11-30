@@ -12,10 +12,6 @@
  <project path="vendor/motorola-dolby" name="miteshx07/vendor_motorola-dolby" remote="g" revision="v1.3" />
  <project path="hardware/xiaomi" name="miteshx07/android_hardware_xiaomi" remote="g" revision="lineage-21" />
 
- <remove-project name="hardware/qcom-caf/audio" />
- <remove-project name="hardware/qcom-caf/display" />
- <remove-project name="hardware/qcom-caf/display" />
-        
  <project path="hardware/qcom-caf/sdm660/media" name="miteshx07/hardware_qcom-caf_sdm660_media" remote="g" revision="lineage-21.0" />
  <project path="hardware/qcom-caf/sdm660/display" name="miteshx07/hardware_qcom-caf_sdm660_display" remote="g" revision="lineage-21.0" />
  <project path="hardware/qcom-caf/sdm660/audio" name="miteshx07/hardware_qcom-caf_sdm660_audio" remote="g" revision="lineage-21.0" />

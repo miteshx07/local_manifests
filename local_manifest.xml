@@ -19,6 +19,6 @@
         
  <project path="hardware/qcom-caf/msm8998/media" name="miteshx07/hardware_qcom-caf_sdm660_media" remote="g" revision="lineage-21.0" />
  <project path="hardware/qcom-caf/msm8998/display" name="miteshx07/hardware_qcom-caf_sdm660_display" remote="g" revision="lineage-21.0" />
- <project path="hardware/qcom-caf/msm8998/audio" name="miteshx07/hardware_qcom-caf_sdm660_audio" remote="g" revision="lineage-21.0"-->
+ <project path="hardware/qcom-caf/msm8998/audio" name="miteshx07/hardware_qcom-caf_sdm660_audio" remote="g" revision="lineage-21.0" />
  
 </manifest>

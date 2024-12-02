@@ -11,8 +11,9 @@
 
  <project path="vendor/motorola-dolby" name="miteshx07/vendor_motorola-dolby" remote="g" revision="v1.3" />
  <project path="hardware/xiaomi" name="miteshx07/android_hardware_xiaomi" remote="g" revision="lineage-21" />
-
-        <!-- Remove HAL's -->
+ <project path="packages/apps/ViPER4AndroidFX" name="miteshx07/packages_apps_ViPER4AndroidFX-New" remote="g" revision="udc" />
+        
+ <!-- Remove HAL's -->
  <remove-project name="LineageOS/android_hardware_qcom_display" />
  <remove-project name="LineageOS/android_hardware_qcom_media" />
  <remove-project name="LineageOS/android_hardware_qcom_audio" />

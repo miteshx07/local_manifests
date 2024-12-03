@@ -7,7 +7,7 @@
  <!-- Trees -->
  <project path="device/xiaomi/lavender" name="miteshx07/device_xiaomi_lavender14" remote="g" revision="sakura" />
  <project path="vendor/xiaomi/lavender" name="miteshx07/vendor_xiaomi_lavender14" remote="g" revision="lineage-21.0" />
- <project path="kernel/xiaomi/lavender" name="user-why-red/android_kernel_xiaomi_sdm660_419" remote="g" revision="android-4.19-stable" />
+ <project path="kernel/xiaomi/lavender" name="Lavender-LineageOS/kernel_xiaomi_lavender" remote="g" revision="android-4.19-stable" />
 
  <project path="vendor/motorola-dolby" name="miteshx07/vendor_motorola-dolby" remote="g" revision="v1.3" />
  <project path="hardware/xiaomi" name="miteshx07/android_hardware_xiaomi" remote="g" revision="lineage-21" />

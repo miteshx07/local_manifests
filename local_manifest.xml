@@ -13,12 +13,12 @@
 <project path="hardware/xiaomi" name="miteshx07/hardware_xiaomi_gen" remote="m" revision="marble" />
 <project path="vendor/motorola-dolby" name="miteshx07/vendor_motorola-dolby.git" remote="m" revision="v1.3" />
 
-<remove-project name="platform/hardware/qcom/audio" />
+<!--remove-project name="platform/hardware/qcom/audio" />
 <remove-project name="platform/hardware/qcom/display" />
 <remove-project name="platform/hardware/qcom/display" />
  
 <project path="hardware/qcom-caf/sdm660/media" name="miteshx07/android_hardware_qcom-caf_sdm660_media" remote="m" revision="" />
 <project path="hardware/qcom-caf/sdm660/display" name="miteshx07/android_hardware_qcom-caf_sdm660_display" remote="m" revision="XOS-15.0" />
-<project path="hardware/qcom-caf/sdm660/audio" name="miteshx07/android_hardware_qcom-caf_sdm660_audio" remote="m" revision="XOS-15.0" />
+<project path="hardware/qcom-caf/sdm660/audio" name="miteshx07/android_hardware_qcom-caf_sdm660_audio" remote="m" revision="XOS-15.0" /-->
  
 </manifest>

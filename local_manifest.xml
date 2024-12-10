@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-       <remote name="p"
-               fetch="https://github.com/mitmac29" />
+          <remote name="m"
+                  fetch="https://github.com" />
 
  <!-- Trees -->
-<project path="device/xiaomi/lavender" name="device" remote="p" revision="LOS18.1-419" clone-depth="1" />
-<project path="device/xiaomi/sdm660-common" name="device_sdm660-common" remote="p" revision="LOS18.1-419" clone-depth="1" />
-<project path="vendor/xiaomi/lavender" name="vendor" remote="p" revision="LOS18.1-419" clone-depth="1" />
-<project path="vendor/xiaomi/sdm660-common" name="vendor_sdm660-common" remote="p" revision="LOS18.1-419" clone-depth="1" />
-<project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_southwest-4.19.git" remote="p" revision="main" clone-depth="1" />
-<project path="vendor/motorola-dolby" name="vendor_motorola-dolby" remote="p" revision="v1.2" clone-depth="1" />
-<project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX-Rising" remote="p" revision="fifteen" clone-depth="1" />
+<project path="device/xiaomi/lavender" name="miteshx07/DT11" remote="m" revision="nitro15" />
+<project path="vendor/xiaomi/lavender" name="miteshx07/android_vendor_xiaomi_lavender" remote="m" revision="nitro15" />
+<project path="kernel/xiaomi/sdm660" name="miteshx07/android_kernel_xiaomi_southwest-4.19" remote="m" revision="main-dynamic" />
+<project path="device/xiaomi/sdm660-common" name="miteshx07/android_device_xiaomi_sdm660-common" remote="m" revision="nitro15" />
+<project path="vendor/xiaomi/sdm660-common" name="miteshx07/android_vendor_xiaomi_sdm660-common" remote="m" revision="nitro15"  />
+<!--project path="hardware/xiaomi" name="miteshx07/hardware_xiaomi_gen" remote="m" revision="marble" /-->
+<project path="packages/apps/ViPER4AndroidFX" name="miteshx07/V4AFX" remote="m" revision="fifteen" />
+          
+<!--remove-project name="platform/hardware/qcom/audio" />
+<remove-project name="platform/hardware/qcom/display" />
+<remove-project name="platform/hardware/qcom/display" />
+ 
+<project path="hardware/qcom-caf/sdm660/media" name="miteshx07/android_hardware_qcom-caf_sdm660_media" remote="m" revision="" />
+<project path="hardware/qcom-caf/sdm660/display" name="miteshx07/android_hardware_qcom-caf_sdm660_display" remote="m" revision="XOS-15.0" />
+<project path="hardware/qcom-caf/sdm660/audio" name="miteshx07/android_hardware_qcom-caf_sdm660_audio" remote="m" revision="XOS-15.0" /-->
  
 </manifest>
